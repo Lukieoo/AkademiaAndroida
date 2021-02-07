@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -85,4 +86,8 @@ dependencies {
 
     testImplementation "io.mockk:mockk:1.10.0"
     testImplementation "org.amshove.kluent:kluent:1.61"
+
+    //Room
+    implementation "androidx.room:room-runtime:2.2.6"
+    kapt "androidx.room:room-compiler:2.2.6"
 }
