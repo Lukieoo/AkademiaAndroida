@@ -1,7 +1,6 @@
 package com.lukieoo.akademiaandroida.core.di
 
 import androidx.room.Room
-import com.lukieoo.akademiaandroida.features.data.RickAndMortyApi
 import com.lukieoo.akademiaandroida.features.room.RickAndMortyDatabase
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
