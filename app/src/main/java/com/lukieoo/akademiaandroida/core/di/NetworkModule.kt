@@ -1,6 +1,6 @@
 package com.lukieoo.akademiaandroida.core.di
 
-import com.lukieoo.akademiaandroida.features.data.remote.RickAndMortyApi
+import com.lukieoo.akademiaandroida.core.api.RickAndMortyApi
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

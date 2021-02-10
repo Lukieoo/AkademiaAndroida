@@ -1,8 +1,7 @@
 package com.lukieoo.akademiaandroida.features.data.locations.domain
 
-import com.lukieoo.akademiaandroida.features.data.episodes.EpisodesRepository
-import com.lukieoo.akademiaandroida.features.data.episodes.domain.model.GetEpisodesUseCase
-import com.lukieoo.akademiaandroida.features.data.locations.LocationsRepository
+import com.lukieoo.akademiaandroida.features.locations.LocationsRepository
+import com.lukieoo.akademiaandroida.features.locations.domain.GetLocationsUseCase
 import io.mockk.coVerify
 import io.mockk.mockk
 import kotlinx.coroutines.GlobalScope

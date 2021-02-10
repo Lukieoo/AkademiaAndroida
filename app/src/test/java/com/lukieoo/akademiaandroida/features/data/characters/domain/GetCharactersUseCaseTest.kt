@@ -1,13 +1,11 @@
 package com.lukieoo.akademiaandroida.features.data.characters.domain
 
-import com.lukieoo.akademiaandroida.features.data.characters.CharactersRepository
-import com.lukieoo.akademiaandroida.features.data.episodes.EpisodesRepository
-import com.lukieoo.akademiaandroida.features.data.episodes.domain.model.GetEpisodesUseCase
+import com.lukieoo.akademiaandroida.features.characters.CharactersRepository
+import com.lukieoo.akademiaandroida.features.characters.domain.GetCharactersUseCase
 import io.mockk.coVerify
 import io.mockk.mockk
 import kotlinx.coroutines.GlobalScope
 import org.junit.Test
-import org.junit.jupiter.api.Assertions.*
 
 internal class GetCharactersUseCaseTest{
     @Test
