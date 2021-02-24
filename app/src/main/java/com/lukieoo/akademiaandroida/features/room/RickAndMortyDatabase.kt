@@ -5,5 +5,5 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [Episodes::class], version = 1)
 abstract class RickAndMortyDatabase : RoomDatabase() {
-    abstract fun rickDao(): EpisodesDao
+    abstract fun episodeDao(): EpisodesDao
 }
